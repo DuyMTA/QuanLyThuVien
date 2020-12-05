@@ -42,8 +42,7 @@ namespace QuanLyThuVien
             {
                 MessageBox.Show("Thay đổi không thành công");
             }
+            btnThay.BackColor=Color.Red;
         }
-
-      
     }
 }
