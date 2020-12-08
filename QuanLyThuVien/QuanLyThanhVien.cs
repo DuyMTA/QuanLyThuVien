@@ -125,6 +125,7 @@ namespace QuanLyThuVien
             {
                 MessageBox.Show("Sửa thất bại");
             }
+            btnSua.BackColor=Color.Red;
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
