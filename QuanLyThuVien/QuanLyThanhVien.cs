@@ -125,6 +125,7 @@ namespace QuanLyThuVien
             {
                 MessageBox.Show("Sửa thất bại");
             }
+            //duy change this
             btnSua.BackColor=Color.Red;
         }
 
