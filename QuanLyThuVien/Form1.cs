@@ -42,6 +42,7 @@ namespace QuanLyThuVien
                 MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu!");
 
             }
+            btnDangNhap.BackColor=Color.Red;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
