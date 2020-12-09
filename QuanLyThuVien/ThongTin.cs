@@ -39,7 +39,7 @@ namespace QuanLyThuVien
             _dg.DiaChi = txtDiaChi.Text;
             tvBUS.sua(_dg);
         }
-
+        //hiển thị dữ liệu lên datagrid view
         private void ThongTin_Load(object sender, EventArgs e)
         {
             DataTable dt = tvBUS.GetThanhVien(tdn);
