@@ -23,19 +23,7 @@ namespace QuanLyThuVien
 
         private void btnThayDoi_Click(object sender, EventArgs e)
         {
-            DocGia _dg = new DocGia();
-            _dg.HoTen = txtHoTen.Text;
-            _dg.MaDocGia = txtMa.Text;
-            _dg.TenDangNhap = txtTdn.Text;
-            if (rNam.Checked == true)
-                _dg.GioiTinh = "Nam  ";
-            else if (rNu.Checked == true)
-                _dg.GioiTinh = "Nữ   ";
-
-            _dg.NamSinh = DateTime.Parse(dateTimePicker1.Text);
-
-            _dg.DiaChi = txtDiaChi.Text;
-            tvBUS.sua(_dg);
+            
         }
 
         private void ThongTin_Load(object sender, EventArgs e)
