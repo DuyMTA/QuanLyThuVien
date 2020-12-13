@@ -47,7 +47,7 @@ namespace QuanLyThuVien
                 đangMượnToolStripMenuItem.Visible = false;
                 đãTrảToolStripMenuItem.Visible = false;
             }
-            
+            MessageBox.Show("Thành công");
         }
 
         private void tìmKiếmSácToolStripMenuItem_Click(object sender, EventArgs e)
